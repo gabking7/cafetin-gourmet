@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, .banner{
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("../fotos/backdrop2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.navbar-menu {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.navbar-menu:hover {
+    color: yellow;
+    font-size: 1.2rem;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+}
+
+.nav-link:hover {
+    color: yellow !important;
+}
+
+.banner, #logo {
+    border-radius: 1000px;
+    max-width: 450px;
+}
