@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-html, body, .banner{
+html, body, .home-banner{
     height: 100%;
     overflow: hidden;
 }
@@ -32,7 +32,31 @@ body {
     color: yellow !important;
 }
 
-.banner, #logo {
+.home-banner, #logo {
     border-radius: 1000px;
     max-width: 450px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f6f6ff;
+    color: white;
+    text-align: center; 
+}
+
+.footer > p {
+    color: black;
+    margin: 0;
+}
+
+.list-group-item {
+    background-color: #f6f6ff !important;
+    border: 0 !important;
+}
+
+a > img {
+    max-width: 40px;
 }
