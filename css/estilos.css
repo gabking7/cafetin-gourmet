@@ -15,6 +15,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.navbar {
+    z-index: 1;
+}
+
 .navbar-menu {
     color: white;
     font-size: 1.1rem;
@@ -132,7 +136,7 @@ main {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-        div.conocenos-card-body {
+        div.general-card-body {
                 width: 750px;
             }
         .divider {
@@ -153,11 +157,11 @@ main {
 }
 
 .conocenos-links:link {
-    color: #fffff5;
+    color: #4169e1;
 }
 
 .conocenos-links:visited {
-    color: #ba3c3c;
+    color: darkblue
 }
 
 .conocenos-links:hover {
@@ -166,4 +170,8 @@ main {
 
 .conocenos-links:active {
     color: red;
+}
+
+span {
+    color: yellow;
 }
