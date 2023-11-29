@@ -49,12 +49,11 @@ body {
 }
 
 .footer > p {
-    color: black;
     margin: 0;
 }
 
 .list-group-item {
-    background-color: #f6f6ff !important;
+    background-color: #212529 !important;
     border: 0 !important;
 }
 
@@ -90,3 +89,15 @@ main {
     margin-bottom: 80px;
 }
 
+.col-md-6 {
+    background-color: #deb887;
+    color: #7b3911;
+}
+
+.card {
+    border: 0 !important;
+}
+
+.card-title {
+    font-weight: bold;
+}
