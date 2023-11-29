@@ -34,8 +34,14 @@ body {
 }
 
 .home-banner, #logo {
-    border-radius: 1000px;
-    max-width: 450px;
+    border-radius: 100px;
+    min-width: 297px;
+}
+
+.brown-logo {
+    min-width: 150px !important;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .footer {
@@ -43,8 +49,6 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #f6f6ff;
-    color: white;
     text-align: center; 
 }
 
@@ -73,10 +77,12 @@ a > img {
     color: #7b3911;
     margin-top: -30px;
     font-weight: bold;
+    padding-left: 26px;
 }
 
 .banner > p {
     color: #7b3911;
+    padding-left: 15px;
 }
 
 .contenido {
