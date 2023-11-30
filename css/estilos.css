@@ -144,7 +144,7 @@ main {
         }
 }
 
-.conocenos-lista {
+.conocenos-lista, h3.text-center, form {
     color: #7b3911;
 }
 
@@ -174,4 +174,32 @@ main {
 
 span {
     color: yellow;
+}
+
+.google-map {
+        padding-bottom: 50%;
+        position: relative;
+        margin-bottom: 20px;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#submit-btn:hover {
+    background-color: gold;
+    color: #212529;
+}
+
+#submit-btn:active {
+    background-color: goldenrod;
 }
