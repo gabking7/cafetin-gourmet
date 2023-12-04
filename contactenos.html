@@ -89,7 +89,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="comentarios" class="form-label">Comentarios:</label>
-                    <textarea class="form-control" id="comentarios" rows="3" placeholder="Escribir aquí..."></textarea>
+                    <textarea class="form-control" id="comentarios" rows="3" placeholder="Escribir aquí..." required></textarea>
                 </div>
                 <button type="submit" class="btn btn-dark" id="submit-btn" onclick="validateEmail()" >Submit</button>
             </form>
@@ -130,10 +130,12 @@
 <script>
     function validateEmail() {
         let email = document.getElementById("email").value;
+        let comentario = document.getElementById("comentarios").value;
         if (email == "") {
-            alert("Favor de llenar el encasillado del Correo Electrónico (email).")
-        }
-        else {
+            alert("Favor de llenar el encasillado de Correo Electrónico (email).")
+        } else if (comentario == "") {
+            alert("Favor de llenar el encasillado de Comentarios")
+        } else {
             alert("¡Gracias por escribirnos! Su opinión ha sido sometida exitosamente.")
         }
     }
